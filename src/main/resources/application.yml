@@ -1,0 +1,19 @@
+langchain4j:
+  open-ai:
+    chat-model:
+      base-url: https://api.deepseek.com/v1
+      api-key: "sk-79620e4c58dc4caaa1b3aaba26aba8df"
+      model-name: deepseek-chat
+      log-responses: true
+      log-requests: true
+    streaming-chat-model:
+      base-url: https://api.deepseek.com/v1
+      api-key: "sk-79620e4c58dc4caaa1b3aaba26aba8df"
+      model-name: deepseek-chat
+      log-responses: true
+      log-requests: true
+
+logging:
+  level:
+    dev.langchain4j: debug
+    com.example.kui: info
